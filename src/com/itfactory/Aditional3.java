@@ -22,9 +22,9 @@ sau doar din litere mici.*/
                 if(word2.toLowerCase().compareTo(word2)==0){
                     System.out.println("litere mici ");
                 }else if(word2.toUpperCase().compareTo(word2)==0){
-                    System.out.println("TIPAR");
+                    System.out.println("LITERE DE TIPAR");
                 }else{
-                    System.out.println("nici");
+                    System.out.println("Cuvantul contine atat litere mari cat si litere mici");
                 }
             }
             System.out.println("S-a introdus cuvantul final. Am iesit din program.");

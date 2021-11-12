@@ -1,8 +1,7 @@
 package com.itfactory;
 
 public class Problema6 {
-    public static void main(String[] args) {
-        /*Problema 6.
+     /*Problema 6.
 Se da urmatorul text:
 "Ma numesc NumePrenume si sunt cursant la cursul de testare
 din cadrul companiei facebook."
@@ -12,6 +11,8 @@ Aspecte:
 1. "NumePrenume" - se va inlocui cu numele cursantului.
 2. "testare" - se va inlocui cu tipul de curs la care participati.
 3. "facebook" - se va inlocui cu numele companiei unde participati la curs.*/
+
+    public static void main(String[] args) {
 
         String text = "Ma numesc NumePrenume si sunt cursant la cursul de testare " +
                 "din cadrul companiei facebook.";

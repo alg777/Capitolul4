@@ -1,8 +1,9 @@
 package com.itfactory;
 
+import java.util.Scanner;
+
 public class Problema3 {
-    public static void main(String[] args) {
-        /*Problema 3.
+    /*Problema 3.
         Sa se creeze un program in care se calculeaza pretul unei cantitati de produse.
         Pentru aceasta se vor citi urmatoarele 3 variabile:
         numele produsului, pretul produsului si cantitatea.
@@ -12,12 +13,22 @@ public class Problema3 {
           si cantitatea {cantitate} , pretul este de {pret calculat}";
         Aspecte:
         1. "Cumpar atatea produse cu numele pe care il citesc si calculez pretul total"*/
-        String numeProdus = "Produs";
-        double pretPerProdus = 23.15;
-        int cantProdus = 10;
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("introduceti numele produsului: ");
+        String numeProdus = scanner.nextLine();
+
+        System.out.println("introduceti pretul unitar al produsului: ");
+        double pretPerProdus = scanner.nextDouble();
+
+        System.out.println("introduceti cantitatea: ");
+        int cantProdus = scanner.nextInt();
+
         double pretCalculat = pretPerProdus*cantProdus;
 
         System.out.println("Pentru produsele de tip "+ numeProdus +" in cantitate de "+ cantProdus+" UM ," +
-                " pretul este de "+ pretCalculat);
+                " valoarea calculata este de "+ pretCalculat + " lei.");
     }
 }

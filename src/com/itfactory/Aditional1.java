@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Aditional1 {
     /*1. Se citesc de la tastatura doua variabile de tip String.
          Sa se verifice daca aceste variabile sunt egale neluand in considerare proprietatea case-sensitive.
-         Exemlpu. Se citesc: Masina si masInA. In acest caz programul va afisa "S-a citit acelasi text"*/
+         Exemplu. Se citesc: Masina si masInA. In acest caz programul va afisa "S-a citit acelasi text"*/
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

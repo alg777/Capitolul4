@@ -11,7 +11,6 @@ Se da urmatorul text:
         String text = "Am DecIs Sa ImI faC TeMa AstAzI";
         System.out.println(text.toLowerCase());
         System.out.println(text.toUpperCase());
-        System.out.println(text);
 
     }
 }
